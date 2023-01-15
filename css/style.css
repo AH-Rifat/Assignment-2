@@ -108,6 +108,32 @@ nav {
     font-size: 35px;
 }
 
+/* feature cetegory section */
+
+.featute-second-section{
+    display: flex;
+    justify-content: center;
+}
+.featute-cetegory-title{
+    font-size: 35px;
+    border-left: 2px solid #FF900E;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.featute-cetegory p{
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+.feature-card{
+    padding: 25px;
+    box-shadow: 5px 5px 5px 5px rgb(223, 220, 220);
+    margin-bottom: 25px;
+}
+.featute-second-section img{
+    width: 50%;
+}
+
+
 /* footer section */
 
 footer{
@@ -142,7 +168,8 @@ footer p{
 }
 .sponsor-images{
     display: flex;
-    gap: 35px;
+    justify-content: center;
+    gap: 60px;
 }
 .sponsor-images img{
     filter: grayscale(2);
