@@ -162,7 +162,7 @@ nav {
 
 .fact-section{
    margin-top: 50px;
-   margin-bottom: 200px;
+   margin-bottom: 100px;
 }
 .fact-section-discription{
    margin-left: 130px;
@@ -187,14 +187,13 @@ nav {
     transition: 1s;
 }
 .fact-card:hover{
-    /* padding: 35px; */
     animation-name: color_change;
     animation-duration: 3s;
     transform: scale(1.2);
 }
 @keyframes color_change{
-    from{background-color: #ffffff; top: 15px;}
-    to{background-color: #ecc190; top: -15px;}
+    from{background-color: #ffffff;}
+    to{background-color: #ecc190;}
 }
 .fact-card h2{
     font-size: 35px;
@@ -205,20 +204,30 @@ nav {
 
 /* client feedback section */
 
+.feedback-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 35px;
+    text-align: center;
+}
 .feedback-section{
     display: flex;
     justify-content: center;
     gap: 35px;   
 }
 .feedback-card{
-    border: 2px solid #ff900e;
+    border: 2px solid #c5a785;
+    background-color: #be9463;
+    color: white;
+    border-radius: 10px;
     text-align: center;
-    padding: 50px;
+    padding: 30px;
     width: 20%;
 }
 .feedback-card img{
     border-radius: 50%;
     width: 100px;
+    margin-bottom: 25px;
 }
 
 /* sponsor section */
@@ -230,6 +239,7 @@ nav {
     font-size: 45px;
     font-weight: 700;
     margin-bottom: 18px;
+    margin-top: 65px;
 }
 .sponsor-discription{
     font-size: 16px;
