@@ -364,9 +364,17 @@ footer p{
 
     .sponsor-images{
         flex-direction: column;
+        width: 100%;
     }
     .sponsor-images img{
         width: 30%;
+        margin-left: 200px;
+        margin-top: 30px;
+    }
+
+    footer p{
+        padding: 15px 10px;
+        font-weight: 500;
     }
 
 }
